@@ -6,7 +6,7 @@ To use PyFuzz, you'll need to have Python 3 installed on your system. You can do
 
 Once you have Python 3 installed, follow these steps to install PyFuzz:
 
-1. Clone the PyFuzz repository to your local system using git clone https://github.com/yourusername/PyFuzz.git or download the source code from the repository and extract it to a local directory.
+1. Clone the PyFuzz repository to your local system using git clone https://github.com/theinit01/PyFuzz.git or download the source code from the repository and extract it to a local directory.
 2. Navigate to the PyFuzz directory in your terminal/command prompt.
 3. Install the required Python modules using ```pip install -r requirements.txt.```
 
