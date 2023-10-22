@@ -14,9 +14,10 @@ Once you have Python 3 installed, follow these steps to install PyFuzz:
 To use PyFuzz, follow these steps:
 1. Navigate to the PyFuzz directory in your terminal/command prompt.
 2. Run python pyfuzz.py -h to view the help menu and see the available options.
-3. Use the -u option to specify the target URL, -w option to specify the wordlist, and other options as required.
-4. Wait for PyFuzz to complete scanning the target website.
-5. Review the results in the specified output format, such as CSV, JSON, or plain text.
+3. Must Use the -url to specify the target URL, -wordlist-dir to specify the wordlist.
+4. ```python pyfuzz1.py -url https://example.com/FUZZ -wordlist word_lists/```
+5. Wait for PyFuzz to complete scanning the target website.
+6. Review the results in the specified output format, such as CSV, JSON, or plain text.
 
 ## Contributing
 PyFuzz is an open-source project and welcomes contributions from the community. To contribute to PyFuzz, please follow these steps:
