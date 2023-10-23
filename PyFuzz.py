@@ -1,6 +1,9 @@
 import requests
 from colorama import Fore, Style
 import argparse
+import time
+
+RATE_LIMIT = 5 # requests per second
 
 def main(url, wordlist_path):
     print(Fore.GREEN + "~~~~~FUZZER~~~~~" + Style.RESET_ALL)
@@ -21,6 +24,8 @@ def main(url, wordlist_path):
                 pass
         except requests.exceptions.RequestException as e:
             print(Fore.RED + f"[-]Error: {e}" + Style.RESET_ALL)
+
+        time.sleep(1/RATE_LIMIT)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="A simple fuzzer to find resources on a web server.")
