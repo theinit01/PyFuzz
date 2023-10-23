@@ -19,6 +19,9 @@ To use PyFuzz, follow these steps:
 5. Wait for PyFuzz to complete scanning the target website.
 6. Review the results in the specified output format, such as CSV, JSON, or plain text.
 
+## Rate Limiting Feature
+We've recently added a rate limiting feature to PyFuzz. This feature helps control the number of requests per second, preventing overload of the target server. Rate limiting is an important consideration to avoid inadvertently affecting the availability of the target.
+
 ## Contributing
 PyFuzz is an open-source project and welcomes contributions from the community. To contribute to PyFuzz, please follow these steps:
 
